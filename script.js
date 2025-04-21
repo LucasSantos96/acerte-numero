@@ -1,4 +1,4 @@
-let aleatorio = Math.floor(Math.random() * 101);
+let aleatorio = Math.floor(Math.random() * 51);
 let tentativas = 6;
 
 const numEscolhido = document.getElementById('numEscolhido');
