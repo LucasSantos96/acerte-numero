@@ -34,7 +34,7 @@ btn.addEventListener('click', (e) => {
 
 function reiniciarJogo() {
   setTimeout(() => {
-    aleatorio = Math.floor(Math.random() * 101);
+    aleatorio = Math.floor(Math.random() * 51);
     tentativas = 6;
     resultado.innerText = 'Novo jogo iniciado! Tente novamente.';
     resultado.style.color = 'black';
