@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #e76f51;
+    margin-top:170px;
+    text-align: center;
+    font-family: "Winky Rough", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #11111111;
+    border-radius: 10px;
+    width: 280px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 3px 19px 1px #cd371276;
+    background-color: #eae5e51c;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #3a3838;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#numEscolhido{
+    border: none;
+    box-shadow: 0px 3px 19px 1px rgba(0, 0, 0, 0.152);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    padding-left:12px ;
+}
+#btnEscolha{
+    background-color: #0c46b9;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 19px 1px #0543c087;
+
+
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+}
